@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: suri-deploy
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       env: prod
