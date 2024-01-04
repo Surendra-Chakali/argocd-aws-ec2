@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
         - name: suri-pod
-	  image: surendra548/test-java-proj:7
-   	  ports:
+          image: surendra548/test-java-proj:7
+          ports:
             - containerPort: 80
 
 ---
