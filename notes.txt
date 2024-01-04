@@ -1,0 +1,7 @@
+####  Get password for argocd admin intial password ###
+
+kubectl get secret -n argocd
+
+kubectl describe secret argocd-initial-admin-secret -n argocd
+
+echo *PASSWORD* | base64 --decode
